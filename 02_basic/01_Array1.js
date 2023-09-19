@@ -91,8 +91,20 @@ console.log(ages); */
 
 
 // ****************unshift**********************
-const ages=[18,34,34,25,15,46,57,23,45,32];
+/* const ages=[18,34,34,25,15,46,57,23,45,32];
 const result= ages.unshift(23);
 console.log(result);
 console.log(ages);
+ */
+// ****************isArray()**********************
+console.log(Array.from("Tek"));
+console.log(Array.isArray("Tek"));
+// console.log(Array.from({name:"Tek"}))//this is interesting case
+
+const score1=23
+const score2=23
+const score3=23
+console.log(Array.of(score1,score2,score3));
+
+
 
