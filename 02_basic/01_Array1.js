@@ -71,9 +71,28 @@ console.log(result); */
 const result=arr1.flat();
 console.log(result); */
 // ****************slice**********************
-const ages=[18,34,34,25,15,46,57,23,45,32];
+/* const ages=[18,34,34,25,15,46,57,23,45,32];
 const result= ages.slice(2,6);
 console.log(result);
+console.log(ages);
+ */
+// ****************splice**********************
+/* const ages=[18,34,34,25,15,46,57,23,45,32];
+const result= ages.splice(2,6);
+console.log(result);
+console.log(ages);
+ */
+// ****************shift**********************
+
+/* const ages=[18,34,34,25,15,46,57,23,45,32];
+const result= ages.shift();
+console.log(result);
+console.log(ages); */
 
 
+// ****************unshift**********************
+const ages=[18,34,34,25,15,46,57,23,45,32];
+const result= ages.unshift(23);
+console.log(result);
+console.log(ages);
 
